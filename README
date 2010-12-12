@@ -1,0 +1,11 @@
+Usage:
+
+var d = new Date();
+d.adjust(years, months, days, hours, minutes, seconds); 
+All the arguments are required, use 0 for no adjustments
+Use negative numbers to go back in time
+Year roll over is handled, for example if you add 15 months.
+For example, this code will adjust a date 3 months and 5 days into the future:
+
+var d = new Date();
+d.adjust(0, 3, 5, 0, 0, 0);
